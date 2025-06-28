@@ -1,0 +1,34 @@
+*$
+*PART NUMBER: NJM2903
+*MANUFACTURER: New Japan Radio 
+*BJT COMPARATOR
+*All Rights Reserved Copyright (c) Bee Technologies Inc. 2005
+.subckt njm2903 AOUTPUT A-INPUT A+INPUT GND 
++ B+INPUT B-INPUT BOUTPUT  V+
+X_U1 A+INPUT A-INPUT V+ GND AOUTPUT njm2903_s
+X_U2 B+INPUT B-INPUT V+ GND BOUTPUT njm2903_s
+.ends njm2903
+*$
+.subckt njm2903_s In+ Ii- V+ V- O/P 
+f1    9  V+ v1 1
+iee   V+ 7 dc 100.0E-6
+vi1   21 In+ dc 0.74506
+vi2   22 Ii- dc 0.752
+q1    9 21  7 qin1
+q2    8 22  7 qin2
+q3    9  8  V- qmo
+q4    8  8  V- qmi
+.model qin1 PNP(Is=800.0E-18 Bf=.210200E3)
+.model qin2 PNP(Is=800.0E-18 Bf=0.19500E3)
+.model qmi NPN(Is=800.0E-18 Bf=1002)
+.model qmo NPN(Is=800.0E-18 Bf=1000 Cjc=1E-15 Tr=57.8E-8)
+e1   10  V-  9  V-  1
+re1  101 V- 35
+v1   10 11 dc 428m
+q5   O/P 11 101 qoc
+.model qoc NPN(Is=800.0E-18 Bf=7.3E3 Cjc=1E-15 Tf=0.365E-8 Tr=38.50E-8)
+dp   V- V+ dx
+rp   V+ V- 71.53
+.model dx  D(Is=800.0E-18)
+.ends njm2903_s
+*$
