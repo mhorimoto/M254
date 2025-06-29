@@ -312,6 +312,308 @@
 				)
 			)
 		)
+		(symbol "Device:Filter_EMI_LCL"
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FL"
+				(at 0 6.985 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Filter_EMI_LCL"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "EMI T-filter (LCL)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "EMI T-filter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Filter* Resonator*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Filter_EMI_LCL_0_1"
+				(rectangle
+					(start -5.715 3.81)
+					(end 5.715 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -4.064 2.54)
+					(mid -4.572 3.0458)
+					(end -5.08 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.048 2.54)
+					(mid -3.556 3.0458)
+					(end -4.064 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.032 2.54)
+					(mid -2.54 3.0458)
+					(end -3.048 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.016 0.762)
+					(end 1.016 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -1.016 2.54)
+					(mid -1.524 3.0458)
+					(end -2.032 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 2.54) (xy 1.016 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.016 1.524)
+					(end -1.016 1.778)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 2.032 2.54)
+					(mid 1.524 3.0458)
+					(end 1.016 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.048 2.54)
+					(mid 2.54 3.0458)
+					(end 2.032 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 4.064 2.54)
+					(mid 3.556 3.0458)
+					(end 3.048 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.08 2.54)
+					(mid 4.572 3.0458)
+					(end 4.064 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Filter_EMI_LCL_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R_US"
 			(pin_numbers hide)
 			(pin_names
@@ -1278,6 +1580,18 @@
 		(color 0 0 0 0)
 		(uuid "e1d39383-f8aa-4f57-8edc-3feea4a190a0")
 	)
+	(no_connect
+		(at 180.975 120.65)
+		(uuid "2aa8dba5-1121-48cb-b71d-24d31ea54364")
+	)
+	(no_connect
+		(at 165.735 118.11)
+		(uuid "429d6b84-2e04-4f30-9e77-7274729f1683")
+	)
+	(no_connect
+		(at 165.735 123.19)
+		(uuid "ed3c8dfa-d607-4b3d-9824-03a830b3a88d")
+	)
 	(wire
 		(pts
 			(xy 194.945 57.785) (xy 149.225 57.785)
@@ -1297,6 +1611,16 @@
 			(type default)
 		)
 		(uuid "0d17d075-f6ab-4bdc-8149-ba8f3c47afe3")
+	)
+	(wire
+		(pts
+			(xy 139.7 74.295) (xy 165.735 74.295)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e30fcfc-17bb-465d-b9e7-88ef287a22ba")
 	)
 	(wire
 		(pts
@@ -1370,6 +1694,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 74.295) (xy 106.045 74.295)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d6c787e-5fd5-4c97-bab2-c433f3b99a84")
+	)
+	(wire
+		(pts
 			(xy 215.9 57.785) (xy 194.945 57.785)
 		)
 		(stroke
@@ -1400,16 +1734,6 @@
 	)
 	(wire
 		(pts
-			(xy 127.635 74.295) (xy 165.735 74.295)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad4ce31d-d87a-48dd-b08d-46a75c186e11")
-	)
-	(wire
-		(pts
 			(xy 217.805 79.375) (xy 215.265 79.375)
 		)
 		(stroke
@@ -1420,7 +1744,7 @@
 	)
 	(wire
 		(pts
-			(xy 127.635 76.835) (xy 132.08 76.835)
+			(xy 106.045 76.835) (xy 110.49 76.835)
 		)
 		(stroke
 			(width 0)
@@ -1500,6 +1824,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 79.375) (xy 132.08 83.185)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e16b3f24-b8a9-4e47-a618-7a3c572af8e9")
+	)
+	(wire
+		(pts
 			(xy 215.9 74.295) (xy 215.9 57.785)
 		)
 		(stroke
@@ -1530,7 +1864,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 76.835) (xy 132.08 83.185)
+			(xy 110.49 76.835) (xy 110.49 83.185)
 		)
 		(stroke
 			(width 0)
@@ -1559,7 +1893,7 @@
 		(uuid "00e4d2fe-af3b-45dd-9f9a-3e8cee9d68d6")
 	)
 	(label "Vin"
-		(at 135.255 74.295 0)
+		(at 113.665 74.295 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1646,7 +1980,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 132.08 83.185 0)
+		(at 110.49 83.185 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1655,7 +1989,7 @@
 		(fields_autoplaced yes)
 		(uuid "0e3a1b8f-74bc-4275-bb20-20db632e38f0")
 		(property "Reference" "#PWR104"
-			(at 132.08 89.535 0)
+			(at 110.49 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1664,7 +1998,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.08 87.3181 0)
+			(at 110.49 87.3181 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1672,7 +2006,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 83.185 0)
+			(at 110.49 83.185 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1681,7 +2015,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 83.185 0)
+			(at 110.49 83.185 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1690,7 +2024,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 83.185 0)
+			(at 110.49 83.185 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2149,10 +2483,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "1ee1d767-d2e3-4800-a0c8-8a317621ccc2")
+			(uuid "1ee1d767-d2e3-4800-a0c8-8a317621ccc3")
 		)
 		(pin "2"
-			(uuid "c557818a-abea-49f0-907e-12fe25116f9a")
+			(uuid "c557818a-abea-49f0-907e-12fe25116f9b")
 		)
 		(instances
 			(project ""
@@ -2224,6 +2558,77 @@
 			(project "NJM2903_Non-inverting_comparator_circuit_with_hysteresis"
 				(path "/f18d6ac5-8bd2-421e-b43a-64aadc7f3028"
 					(reference "#PWR106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Filter_EMI_LCL")
+		(at 132.08 76.835 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61f8b8cc-5522-4423-8575-d284fcbf30ba")
+		(property "Reference" "FL101"
+			(at 132.08 68.8805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DSS1NB31H104Q91"
+			(at 132.08 71.3048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 76.835 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb"
+			(at 132.08 76.835 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "EMI T-filter (LCL)"
+			(at 132.08 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bffab1fe-1e4e-4ce5-9db4-fc9872addcd3")
+		)
+		(pin "3"
+			(uuid "bb74eb01-9d83-48b8-a77b-467f789b911e")
+		)
+		(pin "1"
+			(uuid "ece06c9f-3b9a-40cd-8381-207ab9799c18")
+		)
+		(instances
+			(project ""
+				(path "/f18d6ac5-8bd2-421e-b43a-64aadc7f3028"
+					(reference "FL101")
 					(unit 1)
 				)
 			)
@@ -2488,10 +2893,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "181a42a9-24b7-450b-bc9f-90f5143aaccc")
+			(uuid "181a42a9-24b7-450b-bc9f-90f5143aaccd")
 		)
 		(pin "2"
-			(uuid "98557258-3ab6-49e6-b440-85956e312289")
+			(uuid "98557258-3ab6-49e6-b440-85956e31228a")
 		)
 		(instances
 			(project ""
@@ -2556,10 +2961,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "181a42a9-24b7-450b-bc9f-90f5143aaccc")
+			(uuid "181a42a9-24b7-450b-bc9f-90f5143aacce")
 		)
 		(pin "2"
-			(uuid "98557258-3ab6-49e6-b440-85956e312289")
+			(uuid "98557258-3ab6-49e6-b440-85956e31228b")
 		)
 		(instances
 			(project ""
@@ -2692,10 +3097,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "181a42a9-24b7-450b-bc9f-90f5143aaccc")
+			(uuid "181a42a9-24b7-450b-bc9f-90f5143aaccf")
 		)
 		(pin "2"
-			(uuid "98557258-3ab6-49e6-b440-85956e312289")
+			(uuid "98557258-3ab6-49e6-b440-85956e31228c")
 		)
 		(instances
 			(project ""
@@ -2826,6 +3231,194 @@
 				(path "/f18d6ac5-8bd2-421e-b43a-64aadc7f3028"
 					(reference "U101")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 132.08 83.185 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c67c96ac-315b-4e6b-a8d0-3f9682fe6e58")
+		(property "Reference" "#PWR108"
+			(at 132.08 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 132.08 87.3181 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 132.08 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e33345f9-f5d9-48b8-a286-cf808c311549")
+		)
+		(instances
+			(project "NJM2903_Non-inverting_comparator_circuit_with_hysteresis"
+				(path "/f18d6ac5-8bd2-421e-b43a-64aadc7f3028"
+					(reference "#PWR108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "private:NJM2903")
+		(at 173.355 120.65 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1d4b7c0-4b8d-43f7-a3a4-303adf21c4aa")
+		(property "Reference" "U101"
+			(at 173.355 111.4255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NJM2903"
+			(at 173.355 113.8498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.355 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.njr.com/semicon/PDF/NJM2043_E.pdf"
+			(at 173.355 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Low Noise Pre-Amplifier, DIP-8/DMP-8/SIP-8"
+			(at 173.355 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "sims/NJM2903_NewJRC/NJM2903.lib"
+			(at 173.355 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "njm2903"
+			(at 173.355 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 173.355 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=AOUTPUT 2=A-INPUT 3=A+INPUT 4=GND 5=B+INPUT 6=B-INPUT 7=BOUTPUT 8=V+"
+			(at 173.355 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "8134908e-94d1-45a9-9f54-4fbcb663cfe3")
+		)
+		(pin "4"
+			(uuid "2de98d11-f2ae-4bd9-ac45-0211d0c86754")
+		)
+		(pin "3"
+			(uuid "5bbecf94-d34a-44b7-b397-05d00ed6f21d")
+		)
+		(pin "1"
+			(uuid "8b468d27-52a4-41d7-92fa-0bc8b37a0296")
+		)
+		(pin "2"
+			(uuid "de402364-4910-42fa-9bef-a872443563f1")
+		)
+		(pin "5"
+			(uuid "211b1431-8b9a-498f-bfe9-67db09eb280d")
+		)
+		(pin "7"
+			(uuid "4eca88fe-b2e1-4d89-8712-3757351d5f7f")
+		)
+		(pin "6"
+			(uuid "2009e701-fccd-42aa-ad58-44d299523499")
+		)
+		(instances
+			(project "NJM2903_Non-inverting_comparator_circuit_with_hysteresis"
+				(path "/f18d6ac5-8bd2-421e-b43a-64aadc7f3028"
+					(reference "U101")
+					(unit 2)
 				)
 			)
 		)
@@ -2963,7 +3556,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 122.555 76.835 180)
+		(at 100.965 76.835 180)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -2972,7 +3565,7 @@
 		(fields_autoplaced yes)
 		(uuid "f317f7f0-6e6f-4f36-af43-380c67df3de0")
 		(property "Reference" "J101"
-			(at 122.555 68.8805 0)
+			(at 100.965 68.8805 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2980,7 +3573,7 @@
 			)
 		)
 		(property "Value" "from Sensor"
-			(at 122.555 71.3048 0)
+			(at 100.965 71.3048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2988,7 +3581,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 122.555 76.835 0)
+			(at 100.965 76.835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2997,7 +3590,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 122.555 76.835 0)
+			(at 100.965 76.835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3006,7 +3599,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 122.555 76.835 0)
+			(at 100.965 76.835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
